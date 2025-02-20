@@ -1,0 +1,82 @@
+/* Background Image */
+
+html {
+  background: url(img/linear-gradient-highlight-blue-white-3840x2160-c2-87cefa-ffffff-l-33-a-30-f-21.svg)
+    no-repeat center fixed;
+  background-size: cover;
+}
+
+/* How body looks (middle/background) */
+
+body {
+  background-image: linear-gradient(#ffffff, rgb(143, 208, 252));
+  width: 800px;
+  border-radius: 25px;
+  border: 6px solid rgb(0, 0, 0);
+  margin: auto;
+  padding: 5px 50px 50px;
+}
+
+/* Line being 700 of width */
+
+hr {
+  width: 700px;
+}
+
+/* Centering image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border: 5px solid rgb(184, 0, 0);
+  padding: 5px 5px;
+}
+
+/* Font Styles */
+
+p {
+  font-family: "Poppins", serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kanit", serif;
+}
+
+h3 {
+  font-weight: 500;
+}
+li {
+  font-family: "Ubuntu", serif;
+  font-size: 16px;
+}
+
+a {
+  font-family: "Poppins", serif;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: white;
+  text-decoration: solid;
+  color: black;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: wavy;
+  color: rgb(0, 0, 0);
+  background-color: rgb(43, 255, 0);
+  border: 4px solid rgb(0, 0, 0);
+}
+
+/* Text Center */
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.Centering {
+  text-align: center;
+}
